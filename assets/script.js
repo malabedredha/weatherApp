@@ -1,13 +1,13 @@
+
+
 fetch("http://api.openweathermap.org/geo/1.0/direct?q=London&limit=5&appid")
     .then(response => response.json())
-    .then(location => {
+    .then(data => {
 
-        let firstLocation = location[0]
-        console.log(firstLocation);
-
+        console.log(data);
     })
 
-fetch("https://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid")
+fetch("http://api.openweathermap.org/data/2.5/forecast?lat=44.34&lon=10.99&appid")
     .then(response => response.json())
     .then(data => {
 
