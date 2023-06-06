@@ -19,4 +19,4 @@ fetch(
       console.log(data);
     });
 
-    searchBtn.addEventListener ("click", currentWeather)
+    searchBtn.addEventListener ("click", searchCurrentWeather)

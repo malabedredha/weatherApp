@@ -1,0 +1,22 @@
+header{
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+    color: white;
+    background-color: skyblue;
+}
+
+main{
+    display: grid;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+}
+
+.search {
+    font-size: 20px;
+    display: flex;
+}
