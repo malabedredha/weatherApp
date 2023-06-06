@@ -1,3 +1,4 @@
+// API for fetching city and weather data
 fetch(
     "http://api.openweathermap.org/geo/1.0/direct?q=New+Orleans&limit=5&appid=d6aac51f8f278c439b163e4e7767e456"
   )
@@ -17,3 +18,5 @@ fetch(
     .then((data) => {
       console.log(data);
     });
+
+    searchBtn.addEventListener ("click", currentWeather)
